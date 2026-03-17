@@ -33,12 +33,12 @@
 \usepackage[numbers,sort&compress]{natbib}
 \renewcommand{\bibnumfmt}[1]{#1.}
 
-% --- DOI as clickable hyperlinks ---
-\usepackage{doi}
-
-% --- Hyperlinks ---
+% --- Hyperlinks (must load before doi package) ---
 \usepackage{xcolor}
 \usepackage[colorlinks=true,linkcolor=blue!60!black,citecolor=blue!60!black,urlcolor=blue!60!black]{hyperref}
+
+% --- DOI as clickable hyperlinks ---
+\usepackage{doi}
 
 % --- Line numbering (for review) ---
 \usepackage{lineno}
